@@ -16,9 +16,9 @@ public class Chatbot
 
         System.out.println("So you are "+ age + " cool! I am 400 years old." + \"  This means i am  " + (400/age) + " times older than you.");
         System.out.println("\n Enough about me. what's your favourite language?(just don't say C++)");
-        String language =scan.nextLine();
+        String program =scan.nextLine();
 
-        System.out.println( language + " Fair enough. How many years have you been coding in " + language + " ?");
+        System.out.println( program + " Fair enough. How many years have you been coding in " + program + " ?");
         int time = scan.nextInt();
 
         System.out.println(time + " years eh?, That's great, keep it up!");
